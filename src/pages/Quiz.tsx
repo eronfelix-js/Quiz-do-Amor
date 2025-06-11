@@ -3,12 +3,26 @@ import { motion, AnimatePresence } from "framer-motion";
 
 
 const questions = [
+   {
+    question: "que dia nos conhcemos?",
+    options: ["dia 25", "dia 27", "dia 26", "dia 28"],
+    correct: "dia 27",
+    prize: "Você ganhou lirios",
+    image: "/images/lirios.jpg"
+  },
   {
-    question: "Onde foi nosso primeiro encontro?",
+    question: "Onde foi nosso primeiro date?",
     options: ["Na academia", "No cinema", "Em casa", "Em um restaurante"],
     correct: "Em casa",
     prize: "Você ganhou um gel beijável",
     image: "/images/image.webp"
+  },
+   {
+    question: "oq comemos na primeira vez que a gente saiu?",
+    options: ["sushi", "x tudo", "açai", "macarrão"],
+    correct: "açai",
+    prize: "Você ganhou um hidratante brand",
+    image: "/images/hidratante.jpg"
   },
   {
     question: "Qual é minha comida favorita?",
@@ -21,8 +35,8 @@ const questions = [
     question: "Qual nossa música?",
     options: ["Lembrança Boa", "Tenesse whisky", "sonha cmg", "Yellow"],
     correct: "Lembrança Boa",
-    prize: "Você ganhou um perfume Scandalls",
-    image: "/images/scandal_100ml.avif"
+    prize: "Você ganhou um perfume arabe",
+    image: "/images/fakhar_rose_25ml.jpg"
   }
 ];
 
